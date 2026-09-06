@@ -254,12 +254,19 @@ main section{
     .skills-container{
         flex-direction: column;
     }
-    .resume-contain, footer{
+    .resume-contain, footer, .banner, nav{
         flex-direction:column ;
+    }
+    nav > ul {
+        flex-direction:column;
+        gap:20px;
     }
 
     footer, .about{
         padding: 20px;
+    }
+    .banner{
+        margin: 20px;
     }
     .footer-column{
         width: 100%;
@@ -271,5 +278,14 @@ main section{
     .about-items{
         flex-direction: column;
     }
+    .header{
+        background-image: none;
     
    }
+   .banner-content-pic{
+    width:100% ;
+   }
+   .btn-primary{
+    margin-bottom: 20px;
+   }
+}
