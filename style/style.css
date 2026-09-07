@@ -245,9 +245,7 @@ main section{
 
    /* Responsibe media quary */
 
-   .hide{
-    display: none;
-   }
+
 
    /* small device */
    @media screen and (max-width:576px) {
@@ -288,4 +286,18 @@ main section{
    .btn-primary{
     margin-bottom: 20px;
    }
+}
+
+/* medium device responsibe */
+@media screen and (min-width:577px) and (max-width:990px) {
+     .banner{
+        flex-direction: column;
+     }
+     footer{
+        flex-direction: column;
+     }
+     .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
 }
