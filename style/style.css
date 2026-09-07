@@ -295,6 +295,7 @@ main section{
      }
      footer{
         flex-direction: column;
+        padding: 20px;
      }
      .skills-container{
         display: grid;
